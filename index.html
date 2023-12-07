@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, inicial-scale=1">
+  <meta name="description" content="Página de Portifolio da Escola de Programadores - Matheus">
+  <meta name="keyword" content="HTML, CSS, JavaScript, Portifolio, Matheus">
+  <meta name="author" content="Matheus">
+
+  <title>Escola de Programadores</title>
+
+  <link rel="icon" type="image/x-icon" href="img/logo-principal2.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+  <section>
+    <div class="menuPrincipal row">
+      <div class="col-2">
+        <img class="logo-principal" width="150" height="150" src="img/logo-principal.webp" alt="Logotipo da página.">
+      </div>
+      <div class="col-8">
+        <a class="botaoMenuPrincipal col" href="#sobreMim">Sobre Mim</a>
+        <a class="botaoMenuPrincipal col" href="#curriculo">Currículo</a>
+        <a class="botaoMenuPrincipal col" href="#skills">skills</a>
+        <a class="botaoMenuPrincipal col" href="#contato">Contato</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-sobre-mim">
+    <div class="container-sobreMim">
+      <h1><b>Sobre Mim</b></h1>
+      <p Align="justify" class="col-6"><span class="paragrafo">Me</span> chamo Matheus, sou natural de Aracati, Ceará.
+        Tenho 28 anos e sou
+        acadêmico do curso de Análise e desenvolvimento de sistemas pela Uníntese.
+        Atualmente trabalho como assistente administrativo na Academia Move On desde o ano de 2015.
+      </p>
+      
+    </div>
+    <div class="imagemMatheus">
+      <a><img class="imagemMatheus" width="300" height="300" src="img/logo_site.webp" target="_blank" alt="matheus-imagem-de-apresentção"></a>
+    </div>
+  </section>
+  <hr>
+
+  <section class="container-curriculo">
+    <div id="curriculo" class="meuCurriculo">
+      <a href="curriculo"></a>
+      <h1 class="tituloCurriculo"><b>Currículo</b></h1>
+      <ul>
+        <li Align="justify">Atualmente no cargo de Relacionamento e Vendas na Academia Move On, no encargo de
+          atendimento ao público
+          com venda de
+          planos se serviços e produtos.(presencialmente, por telefone e online via whatsapp/facebook/instagram),
+          cadastro
+          de clientes e produtos,
+          supervisão de ponto de empregados, elaboração de planilhas de receitas/despesas e horários de funcionários da
+          empresa,
+          emissão de relatórios financeiros, emissão de NFEs e controle de caixa (recebimentos e pagamentos), no período
+          de 8 (oito) anos.</li>
+        <br />
+      </ul>
+      <div class="logo-move">
+        <a href="https://www.instagram.com/moveonacademia/" target="_blank"><img width="250" height="250"
+            class="imagemMove" src="img/logo-move.png" alt="Logotipo da empresa que trabalho."></a>
+      </div>
+      <br />
+      <li Align="justify" class="curriculo">Estágio como Secretário no Escritório de Advocacia Dr. José
+        Augusto Neto, na função de atendimento ao público,
+        registro de processos, elaboração e organização de pastas e planilhas, no período de 6(seis) meses (2013).</li>
+      </p>
+    </div>
+  </section>
+  <hr>
+
+  <section class="container">
+    <div id="skills" class="minhaSkills">
+      <a href="skills"></a>
+      <h1 class="tituloSkills"><b>Skills</b></h1>
+      <ul>
+        <li Align="justify">
+          Curso completo de “Algoritmos e Lógica de Programação 2023 – O curso completo”,
+          <br>com carga horária de 30.5 horas na instituição Udemy.
+        </li>
+        <li Align="justify">
+          Curso Completo em “Noções básicas e avançadas” em informática geral,
+          <br>com carga horária de 120 horas (2010) na empresa Micro Point Informática.
+        </li>
+        <li Align="justify">
+          Curso em andamento de Python 3, do básico ao avançado, na institução Udemy.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <h3 class="cabecalhoCarrosel"><b>Projetos em Python</b></h3>
+  <section class="slider">
+    <input name='slide' type="radio">
+    <input name='slide' type="radio" checked>
+    <div class="slider-content">
+      <div class="slider-item"><img width="250" height="350" src="img/img1.png" alt="Imagem1"></div>
+      <div class="slider-item"><img width="700" height="500" src="img/img2.png" alt="Imagem2"></div>
+    </div>
+  </section>
+
+  <hr>
+  <footer class="rodaPe">
+    <div id="contato" class="contatos">
+      <a href="contato"></a>
+      <ul>
+        <h4><b>Contato</b></h4>
+        <li>
+          Telefone: (88)99837-9018
+        </li>
+        <li>
+          E-mail: matheusvlr2@gmail.com
+        </li>
+      </ul>
+      <div class="redesSociais">
+        <h4><b>Redes Sociais</b></h4>
+        <ul>
+          <a href="https://www.instagram.com/matheus_v.ribeiro/" target="_blank">
+            <li>
+              Instagram
+            </li>
+          </a>
+          <a href="https://www.facebook.com/matheus.victor.319" target="_blank">
+            <li>
+              Facebook
+            </li>
+          </a>
+          <a href="https://www.linkedin.com/in/matheus-victor-lima-ribeiro-310925298/" target="_blank">
+            <li>
+              Linkedin
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+</html>
